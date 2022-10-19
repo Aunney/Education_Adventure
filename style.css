@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(122, 84, 66);
+    position: fixed;
+    z-index: 1;
+}
+
+.header ul {
+    justify-content: right;
+    display: flex;
+    text-decoration: none;
+}
+
+.header ul li {
+    list-style: none;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color:aliceblue;
+    font-family: "Itim",cursive;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.header ul li a:hover, .header ul li a.active {
+    background-color:rgb(238, 204, 199);
+    color:rgb(22, 21, 20); 
+}
+
+#logo {
+    font-size: 45px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 6px 15px;
+    color:aliceblue;
+    font-family: "Raleway",sans-serif;
+    list-style: none;
+    margin-right: 10em;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    letter-spacing: 5px;   
+}
+
+.bg {
+    display: block;
+    max-width: 100%;
+}
+
+.background {
+    position:relative;
+    text-align: center;
+    color: aqua;
+}
+
+.ea {
+    padding: 15px 15px;
+    border-radius: 30px;
+    font-size: 60px;
+    font-family: "Raleway",cursive;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+    background-color: rgb(255, 223, 223);
+    color:rgb(66, 53, 50);
+    letter-spacing: 3px;
+    opacity: 80%;
+}
+
+.playbutton a {
+    padding: 15px 15px;
+    border-radius: 30px;
+    font-size: 40px;
+    font-family: "Raleway",cursive;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+    background-color: rgb(189, 149, 146);
+    color: rgb(95, 62, 62);
+    letter-spacing: 3px;
+    text-decoration: none;
+    
+}
+
+.playbutton a:hover {
+    color: rgb(243, 189, 189);
+    background-color: rgb(90, 59, 54);
+}
+
+.habout {
+    width: 100%;
+    height: 15em;
+    background-color: rgb(252, 225, 213);
+    margin: 0;
+}
+
+.habout h1 {
+    font-size: 80px;
+    font-family: "Itim",cursive;
+    color: rgb(92, 40, 40);
+    letter-spacing: 5px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutbg {
+    background-color: rgb(255, 242, 236);
+}
+
+.aboutimg {
+    padding-top:5em;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    width: 50%;
+    background-color: rgb(255, 242, 236);
+}
+
+.textabout {
+    width: 100%;
+    height: 30em;
+    background-color: rgb(255, 242, 236)
+}
+
+.textabout p {
+    font-size: 30px;
+    font-family: "Itim", cursive;
+    text-align: center;
+    padding-top: 2em;
+    line-height: 2em;
+    color: rgb(46, 22, 22);
+}
+
+.textabout p.quote {
+    color: rgb(202, 71, 169);
+    font-size: 35px;
+}
+
+.contact {
+    font-size: 30px;
+    font-family: "Itim", cursive;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    line-height: 2em;
+    color: rgb(236, 19, 37);
+    background-color: rgb(255, 242, 236);
+    margin:0;
+}
+
+@media screen and (max-width:1800px) {
+    #logo {
+        margin-right: 5em;
+    }
+}
+
+@media screen and (max-width:1470px) {
+    #logo {
+        margin-right: 8em;
+        font-size: 45px;
+    }
+}
